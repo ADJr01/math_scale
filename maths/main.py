@@ -1,8 +1,10 @@
-from maths.softmax import soft_max
+import numpy as np
 
 if __name__ == '__main__':
-    nums = [1,2,3]
-    result = soft_max(nums)
-    total = sum(result)
-    print(result)
-    print(total)
+    nums = np.random.random(10)
+    max = np.max(nums)
+    min = np.min(nums)
+    max_index = np.argmax(nums)
+    min_index = np.argmin(nums)
+    print(f"Max is {max} at index {max_index}")
+    print(f"Min is {min} at index {min_index}")
