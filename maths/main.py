@@ -10,5 +10,5 @@ if __name__ == '__main__':
     print(f"Person with max age: {np.argmax(dataset)}")
     print(f"Person with min age: {np.argmin(dataset)}")
     print(f"Mean of All Ages: {mean_of_all_ages}\nMean of Subset1 {mean_of_subset_1}\nMean of Subset2 {mean_of_subset_2}")
-    print(np.random.choice(np.random.rand(1),size=5,replace=True))
+
 
